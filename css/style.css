@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+    background: #444;
+    width: 100%;
+    height: 90px;
+}
+.icons{
+    font-size: 30px;
+    margin-right: 50px;
+}
+.words a img{
+    width: 174px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.words span{
+    color: #fff;
+    margin-right: 10px;
+}
+.words i{
+    margin-right: 10px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://khamsat.hsoubcdn.com/assets/images/hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.search h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.search p{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.search form input{
+padding: 20px;
+width: 500px;
+text-align: center;
+margin-top: 10px;
+position: absolute;
+right: 600px;
+outline: #52b035;
+border: 1px solid #52b035;
+}
+.btn{
+    position: absolute;
+    padding: 10px;
+    bottom: 265px;
+    left: 555px;
+    font-size: 25px;
+    background: #52b035;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.h2 h2{
+    margin-top: 20px;
+    color: #52b035;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.workss{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.workss h4{
+    position: relative;
+    z-index: 3;
+    left: 91px;
+    top: -156px;
+    color: #fff;
+    font-size: 30px;
+}
+.workss img{
+    opacity: 1;
+    filter: blur(1px);
+}
+.bk{
+background: #f1f1f1;
+height: 500px;
+}
+.work2{ 
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.work2 button{
+    padding: 10px;
+    font-size: 20px;
+    background: #f1f1f1;
+    border: 1px solid #52b035;
+    outline: #52b035;
+    color: #52b035;
+    cursor: pointer;
+}
+.work2 button:hover{
+    background: #36bc0e;
+    color: #fff;
+}
+.work2 .business h3{
+        font-size: 20px;
+        font-weight: 300;
+}
+.works3{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer div h2{
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+footer div p{
+    color: #36bc0e;
+    line-height: 30px;
+}
+footer div i{
+    font-size: 30px;
+}
+.footer22 {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    margin-top: 20px;
+    background: #f1f1f1;
+}
+.fless{
+    display: flex;
+    justify-content: space-around;
+    
+}
